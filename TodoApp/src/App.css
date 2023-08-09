@@ -1,0 +1,30 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.each-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#inputField {
+	margin-right: 13px;
+}
+
+.todo-item {
+	margin-right: 10px;
+}
+#remove-button {
+	margin-left: -40px;
+	margin-top: 10px;
+	color: black;
+	background: linear-gradient(135deg, blue, red);
+	border: 0;
+	padding: 5px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
